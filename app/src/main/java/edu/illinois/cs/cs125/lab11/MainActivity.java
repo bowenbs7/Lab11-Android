@@ -63,7 +63,7 @@ public final class MainActivity extends AppCompatActivity {
         try {
             JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
                     Request.Method.GET,
-                    "",
+                    "https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1",
                     null,
                     new Response.Listener<JSONObject>() {
                         @Override
